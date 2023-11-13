@@ -136,7 +136,7 @@ def main():
                 snake.length += 1
                 fruit.randomize_position()
                 eat_sound.play()
-                score += 10 * level
+                score += 2 * level
                 if level < 5:
                     level += 1
 
